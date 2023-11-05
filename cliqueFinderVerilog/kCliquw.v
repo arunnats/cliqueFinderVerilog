@@ -1,0 +1,81 @@
+`define n 3
+`define k 3
+
+module Separate(
+  input [`n-1:0][`k-1:0] T,
+  input [4:0] i,
+  output reg [`n-1:0][`k-1:0] Tplus,
+  output reg [`n-1:0][`k-1:0] Tminus	
+);
+  integer j;
+  always @* begin
+    for (j = 0; j < `n; j = j + 1) begin
+      if (T[j][i]) begin
+        Tplus[j] = T[j];
+        Tminus[j] = 0;
+      end else begin
+        Tplus[j] = 0;
+        Tminus[j] = T[j];
+      end
+    end
+  end
+endmodule
+
+module Merge(
+  input [`n-1:0][`k-1:0] T1,
+  input [`n-1:0][`k-1:0] T2,
+  output reg [`n-1:0][`k-1:0] T_merge
+);
+  integer j;
+  always @* begin
+    for (j = 0; j < `n; j = j + 1) begin
+      if (T1[j] == 0) begin
+        T_merge[j] = T2[j];
+      end else if (T2[j] == 0) begin
+        T_merge[j] = T1[j];
+      end else begin
+        T_merge[j] = 0;
+      end
+    end
+  end
+endmodule
+
+module k_clique(
+  input [`n-1:0] vertices,
+  input [`n-1:0][`n-1:0] adj_matrix,
+  input [4:0] k,
+  output reg [`n-1:0][`k-1:0] clique,
+  output reg [`n-1:0] num_cliques
+);
+  integer i, j, l;
+  reg [`n-1:0][`k-1:0] T_plus, T_minus, T_plus_plus, T_plus_minus;
+  reg [4:0] count;
+  Separate separate0(.T(clique), .i(i), .Tplus(T_plus), .Tminus(T_minus));
+  Separate separate1(.T(T_plus), .i(j), .Tplus(T_plus_plus), .Tminus(T_plus_minus));
+  Merge merge0(.T1(T_minus), .T2(T_plus_minus), .T_merge(clique));
+  Merge merge1(.T1(clique), .T2(T_plus_plus), .T_merge(clique));
+
+  always @* begin
+    num_cliques = 0;
+    clique = vertices;
+
+    for (i = 0; i < `n - 1; i = i + 1) begin
+      for (j = i + 1; j < `n; j = j + 1) begin
+        if (adj_matrix[i][j]) begin
+          for (l = i + 2; l < `n; l = l + 1) begin
+          count = `k - (i + 2);
+            if (clique[l][count]) begin
+              num_cliques = num_cliques + 1;
+              clique[num_cliques - 1] = clique[l];
+            end
+          end
+          if (num_cliques > 0) begin
+            break;
+          end
+        end
+      end
+    end
+  end
+endmodule
+
+

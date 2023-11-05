@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cliqueFinder
-Fri Oct 20 19:06:15 2023
+Sun Nov  5 17:05:12 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -37,10 +37,10 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Fri Oct 20 19:06:15 2023              ;
+; Analysis & Synthesis Status        ; Failed - Sun Nov  5 17:05:12 2023              ;
 ; Quartus Prime Version              ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                      ; cliqueFinder                                   ;
-; Top-level Entity Name              ; cliqueFinder                                   ;
+; Top-level Entity Name              ; k_clique                                       ;
 ; Family                             ; MAX 10                                         ;
 ; Total logic elements               ; N/A until Partition Merge                      ;
 ;     Total combinational functions  ; N/A until Partition Merge                      ;
@@ -62,7 +62,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10M50DAF484C7G     ;                    ;
-; Top-level entity name                                            ; cliqueFinder       ; cliqueFinder       ;
+; Top-level entity name                                            ; k_clique           ; cliqueFinder       ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -164,35 +164,22 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Fri Oct 20 19:06:03 2023
+    Info: Processing started: Sun Nov  5 17:05:00 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cliqueFinder -c cliqueFinder
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file cliquefinder.v
-    Info (12023): Found entity 1: cliqueFinder File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 3
-Error (10161): Verilog HDL error at cliqueFinder.v(4): object "n" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 4
-Error (10161): Verilog HDL error at cliqueFinder.v(5): object "n" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 5
-Error (10839): Verilog HDL error at cliqueFinder.v(5): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 5
-Error (10734): Verilog HDL error at cliqueFinder.v(7): k is not a constant File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 7
-Error (10161): Verilog HDL error at cliqueFinder.v(7): object "n" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 7
-Error (10839): Verilog HDL error at cliqueFinder.v(7): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 7
-Error (10161): Verilog HDL error at cliqueFinder.v(8): object "n" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 8
-Error (10161): Verilog HDL error at cliqueFinder.v(12): object "void" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 12
-Error (10734): Verilog HDL error at cliqueFinder.v(12): k is not a constant File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 12
-Error (10161): Verilog HDL error at cliqueFinder.v(12): object "n" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 12
-Error (10839): Verilog HDL error at cliqueFinder.v(12): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 12
-Error (10734): Verilog HDL error at cliqueFinder.v(15): k is not a constant File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 15
-Error (10161): Verilog HDL error at cliqueFinder.v(15): object "n" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 15
-Error (10839): Verilog HDL error at cliqueFinder.v(15): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 15
-Error (10734): Verilog HDL error at cliqueFinder.v(16): k is not a constant File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 16
-Error (10161): Verilog HDL error at cliqueFinder.v(16): object "n" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 16
-Error (10839): Verilog HDL error at cliqueFinder.v(16): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 16
-Error (10161): Verilog HDL error at cliqueFinder.v(19): object "n" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 19
-Error (10161): Verilog HDL error at cliqueFinder.v(33): object "void" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/cliqueFinder.v Line: 33
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 19 errors, 1 warning
+Info (12021): Found 0 design units, including 0 entities, in source file cliquefinder.v
+Info (12021): Found 3 design units, including 3 entities, in source file kcliquw.v
+    Info (12023): Found entity 1: Separate File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 4
+    Info (12023): Found entity 2: Merge File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 24
+    Info (12023): Found entity 3: k_clique File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 43
+Error (10839): Verilog HDL error at kCliquw.v(5): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 5
+Error (10839): Verilog HDL error at kCliquw.v(7): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 7
+Error (10839): Verilog HDL error at kCliquw.v(8): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 8
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 3 errors, 1 warning
     Error: Peak virtual memory: 4723 megabytes
-    Error: Processing ended: Fri Oct 20 19:06:15 2023
+    Error: Processing ended: Sun Nov  5 17:05:12 2023
     Error: Elapsed time: 00:00:12
-    Error: Total CPU time (on all processors): 00:00:08
+    Error: Total CPU time (on all processors): 00:00:10
 
 

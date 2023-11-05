@@ -1,4 +1,6 @@
 
+/*	Commenting out everything until 
+
 // Define a module to find k-cliques in a graph
 module cliqueFinder(
   input [n-1:0] vertices, // A vector of n vertices
@@ -121,3 +123,5 @@ module cliqueFinder(
   end
 
 endmodule
+
+*/

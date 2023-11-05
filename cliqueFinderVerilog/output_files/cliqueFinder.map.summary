@@ -1,7 +1,7 @@
-Analysis & Synthesis Status : Failed - Fri Oct 20 19:06:15 2023
+Analysis & Synthesis Status : Failed - Sun Nov  5 17:05:12 2023
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : cliqueFinder
-Top-level Entity Name : cliqueFinder
+Top-level Entity Name : k_clique
 Family : MAX 10
 Total logic elements : N/A until Partition Merge
     Total combinational functions : N/A until Partition Merge

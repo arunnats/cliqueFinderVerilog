@@ -1,0 +1,12 @@
+module ArrayAdder(
+	input [7:0] array1 [0:7], 
+	input [7:0] array2 [0:7], 
+	output reg [7:0] result [0:7]
+);
+    integer i;
+    always @* begin
+        for (i = 0; i < 8; i = i + 1) begin
+            result[i] = array1[i] + array2[i];
+        end
+    end
+endmodule

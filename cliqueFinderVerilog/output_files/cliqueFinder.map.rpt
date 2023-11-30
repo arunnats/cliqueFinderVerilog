@@ -1,5 +1,5 @@
-Analysis & Synthesis report for cliqueFinder
-Sun Nov  5 17:05:12 2023
+Analysis & Elaboration report for cliqueFinder
+Tue Nov 28 18:11:19 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -7,10 +7,10 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
 
 
 
@@ -35,9 +35,9 @@ https://fpgasoftware.intel.com/eula.
 
 
 +-------------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                        ;
+; Analysis & Elaboration Summary                                                      ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Sun Nov  5 17:05:12 2023              ;
+; Analysis & Elaboration Status      ; Failed - Tue Nov 28 18:11:19 2023              ;
 ; Quartus Prime Version              ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                      ; cliqueFinder                                   ;
 ; Top-level Entity Name              ; k_clique                                       ;
@@ -56,8 +56,24 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------+------------------------------------------------+
 
 
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
 +------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                              ;
+; Analysis & Elaboration Settings                                                                            ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
@@ -142,30 +158,14 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 12          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Sun Nov  5 17:05:00 2023
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cliqueFinder -c cliqueFinder
+    Info: Processing started: Tue Nov 28 18:11:09 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cliqueFinder -c cliqueFinder --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 0 design units, including 0 entities, in source file cliquefinder.v
@@ -176,10 +176,10 @@ Info (12021): Found 3 design units, including 3 entities, in source file kcliquw
 Error (10839): Verilog HDL error at kCliquw.v(5): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 5
 Error (10839): Verilog HDL error at kCliquw.v(7): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 7
 Error (10839): Verilog HDL error at kCliquw.v(8): declaring multiple packed array dimensions is a SystemVerilog feature File: C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/cliqueFinderVerilog/kCliquw.v Line: 8
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 3 errors, 1 warning
+Error: Quartus Prime Analysis & Elaboration was unsuccessful. 3 errors, 1 warning
     Error: Peak virtual memory: 4723 megabytes
-    Error: Processing ended: Sun Nov  5 17:05:12 2023
-    Error: Elapsed time: 00:00:12
-    Error: Total CPU time (on all processors): 00:00:10
+    Error: Processing ended: Tue Nov 28 18:11:19 2023
+    Error: Elapsed time: 00:00:10
+    Error: Total CPU time (on all processors): 00:00:12
 
 

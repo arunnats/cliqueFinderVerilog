@@ -1,0 +1,26 @@
+module ArrayProcessor(input [24:0] flatArray, output reg [24:0] flatCombinations);
+    reg [4:0] array [0:4][0:4];
+    reg [4:0] combinations [0:9];
+    integer i, j, l, m, n;
+
+    initial begin
+        // Convert the flat array into a 2D array
+        for (i = 0; i < 5; i = i + 1) begin
+            for (j = 0; j < 5; j = j + 1) begin
+                array[i][j] = flatArray[i*5 + j];
+            end
+        end
+
+        // Find all combinations of size k from the 2D array
+        l = 0;
+        for (i = 0; i < 5; i = i + 1) begin
+            for (j = i + 1; j < 5; j = j + 1) begin
+                for (m = j + 1; m < 5; m = m + 1) begin
+                    combinations[l] = array[i][j] + array[i][m] + array[j][m];
+                    flatCombinations[l*3 +: 3] = combinations[l];
+                    l = l + 1;
+                end
+            end
+        end
+    end
+endmodule

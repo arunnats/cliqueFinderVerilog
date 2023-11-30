@@ -1,0 +1,19 @@
+module ArrayAdderTestbench;
+    reg [7:0] array1 [0:7];
+    reg [7:0] array2 [0:7];
+    wire [7:0] result [0:7];
+
+    ArrayAdder testbench (.array1(array1), .array2(array2), .result(result));
+
+    initial begin
+        // Initialize array1 and array2 here
+        array1[0] = 8'h01; array1[1] = 8'h02; array1[2] = 8'h03; array1[3] = 8'h04;
+        array1[4] = 8'h05; array1[5] = 8'h06; array1[6] = 8'h07; array1[7] = 8'h08;
+
+        array2[0] = 8'h01; array2[1] = 8'h02; array2[2] = 8'h03; array2[3] = 8'h04;
+        array2[4] = 8'h05; array2[5] = 8'h06; array2[6] = 8'h07; array2[7] = 8'h08;
+
+        // Then, apply a positive edge to the clock
+        #10;
+    end
+endmodule

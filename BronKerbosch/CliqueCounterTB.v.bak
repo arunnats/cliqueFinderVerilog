@@ -1,0 +1,31 @@
+module CliqueCounter_tb;
+
+  reg [2:0][2:0] test_graph;
+  wire [2:0] result;
+
+  // Instantiate the module
+  CliqueCounter uut (
+    .graph(test_graph),
+    .clique_count(result)
+  );
+
+  initial begin
+    test_graph[0][0] = 0; test_graph[0][1] = 1; test_graph[0][2] = 0;
+    test_graph[1][0] = 1; test_graph[1][1] = 0; test_graph[1][2] = 1;
+    test_graph[2][0] = 0; test_graph[2][1] = 1; test_graph[2][2] = 0;
+
+    $display("Input Graph:");
+    for (int i = 0; i < 3; i = i + 1) begin
+      for (int j = 0; j < 3; j = j + 1)
+        $write("%2b ", test_graph[i][j]);
+      $write("\n");
+    end
+
+    #10;
+
+    $display("\nNumber of Cliques: %0d", result);
+
+    $finish;
+  end
+
+endmodule

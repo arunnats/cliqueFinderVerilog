@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "clique_count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clique_count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clique_count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "graph[1]",
+					"strict" : false
+				},
+				{
+					"name" : "graph[2]",
+					"strict" : false
+				},
+				{
+					"name" : "graph[0]",
+					"strict" : false
+				},
+				{
+					"name" : "graph[3]",
+					"strict" : false
+				},
+				{
+					"name" : "graph[4]",
+					"strict" : false
+				},
+				{
+					"name" : "graph[5]",
+					"strict" : false
+				},
+				{
+					"name" : "graph[6]",
+					"strict" : false
+				},
+				{
+					"name" : "graph[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

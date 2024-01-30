@@ -1,0 +1,28 @@
+|CliqueCounter
+graph[0] => always0.IN1
+graph[1] => always0.IN0
+graph[1] => always0.IN1
+graph[2] => always0.IN1
+graph[2] => always0.IN0
+graph[2] => always0.IN1
+graph[3] => always0.IN1
+graph[3] => always0.IN0
+graph[3] => always0.IN1
+graph[4] => always0.IN1
+graph[4] => always0.IN0
+graph[4] => always0.IN1
+graph[5] => always0.IN1
+graph[5] => always0.IN0
+graph[5] => always0.IN1
+graph[6] => always0.IN1
+graph[6] => always0.IN0
+graph[7] => always0.IN1
+graph[8] => ~NO_FANOUT~
+clk => clique_count[0]~reg0.CLK
+clk => clique_count[1]~reg0.CLK
+clk => clique_count[2]~reg0.CLK
+clique_count[0] << clique_count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clique_count[1] << clique_count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clique_count[2] << clique_count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

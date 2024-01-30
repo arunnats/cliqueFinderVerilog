@@ -5,16 +5,18 @@ module CliqueCounter (
 );
 
 reg [2:0] i;
-
+reg [2:0] temp_count;
 
 always @(posedge clk) 
 begin
-	clique_count <= 0;
+  temp_count = 0;
   
-  for (i = 0; i < 6; i = i + 1) begin //made it 6 becuse if its 8 i+1 and i+2 will be out of bounds
+  for (i = 0; i < 6; i = i + 1) begin
     if ((graph[i+2] && graph[i+1] && graph[i]) == 1)
-      clique_count <= clique_count + 1;
+      temp_count = temp_count + 1;
   end
+
+  clique_count <= temp_count;
 end
 
 endmodule

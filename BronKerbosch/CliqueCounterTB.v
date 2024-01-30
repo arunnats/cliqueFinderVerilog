@@ -17,15 +17,18 @@ module CliqueCounterTB;
     test_graph_flat = 9'b010_101_010;
 
     $display("Input Graph:");
+	 
     for (i = 0; i < 3; i = i + 1) begin
-      for (j = 0; j < 3; j = j + 1)
+      for (j = 0; j < 3; j = j + 1)begin
         $write("%2b ", test_graph_flat[i*3+j]); 
+		  #10; 
+		  end
       $write("\n");
     end
   end
   
   initial begin
-    #10; 
+    
 
     repeat (100) begin
       clk = ~clk; 

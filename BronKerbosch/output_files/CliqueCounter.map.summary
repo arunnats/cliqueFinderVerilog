@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Tue Jan 30 14:16:52 2024
+Analysis & Synthesis Status : Successful - Tue Jan 30 14:26:20 2024
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : CliqueCounter
 Top-level Entity Name : CliqueCounter
 Family : MAX 10
-Total logic elements : 8
-    Total combinational functions : 8
+Total logic elements : 12
+    Total combinational functions : 12
     Dedicated logic registers : 3
 Total registers : 3
 Total pins : 13

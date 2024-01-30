@@ -21,8 +21,8 @@ graph[8] => ~NO_FANOUT~
 clk => clique_count[0]~reg0.CLK
 clk => clique_count[1]~reg0.CLK
 clk => clique_count[2]~reg0.CLK
-clique_count[0] << clique_count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-clique_count[1] << clique_count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-clique_count[2] << clique_count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clique_count[0] <= clique_count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clique_count[1] <= clique_count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clique_count[2] <= clique_count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 

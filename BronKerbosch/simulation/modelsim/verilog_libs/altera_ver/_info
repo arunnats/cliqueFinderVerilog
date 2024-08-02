@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/simulation/modelsim
 valt_bidir_buf
-Z1 !s110 1706605035
+Z1 !s110 1706616566
 !i10b 1
 !s100 `k9N_NNE[omlCfHHm=PO53
 ID:iD7Z8K2@]7`ebSaEY3@3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1706605034.000000
+Z7 !s108 1706616565.000000
 Z8 !s107 c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_ver|c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v|
 !i113 1
@@ -219,7 +219,7 @@ R9
 R10
 R11
 vcarry
-Z12 !s110 1706605034
+Z12 !s110 1706616565
 !i10b 1
 !s100 0ICFPGeo=D<cUPW66HGND3
 Iz77ijUON;W9jNnEaNoOT_1
@@ -534,7 +534,7 @@ R9
 R10
 R11
 vlut_input
-R1
+R12
 !i10b 1
 !s100 A74hWU1l783Jb@M@NEWL[1
 ILUP=liJSlfeL2;PGCfoQP0
@@ -576,7 +576,7 @@ R9
 R10
 R11
 vopndrn
-R1
+R12
 !i10b 1
 !s100 SbP7Lmfm2l3o<=VUXXj^V2
 IYKVRNCV6>QR23UE0jfX8W3
@@ -640,7 +640,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@h@i@g@h
 UPRIM_GDFF_HIGH_SCLR_PRIORITY
-!s110 1706605036
+!s110 1706616567
 !i10b 1
 !s100 F63MIm7BDi6=;U3:nVoTc3
 Ij;=HTKU[9kBUfQHzoB8Z91
@@ -769,7 +769,7 @@ R9
 R10
 R11
 vrow_global
-R1
+R12
 !i10b 1
 !s100 8a3J8?I7z9`=o0f7A<3H@2
 I=D0We<035lMZi5e@B`WS=0
@@ -790,7 +790,7 @@ R9
 R10
 R11
 vsoft
-R1
+R12
 !i10b 1
 !s100 N?lNK?YVRSjaSdS3kflgD0
 IKNKC68BeC:5RkgJ?D>Unm1
@@ -895,7 +895,7 @@ R9
 R10
 R11
 vTRI
-R1
+R12
 !i10b 1
 !s100 zijCJ15AMfmk_^o0@gG2o2
 IDJiii2h66O:?04O6gCiO>3

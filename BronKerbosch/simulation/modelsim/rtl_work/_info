@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/simulation/modelsim
 vCliqueCounter
-Z1 !s110 1706605046
+Z1 !s110 1706616577
 !i10b 1
 !s100 5Qod:R4^ajNV5PdK]Rh>d3
 Iz]V79XhjSgF6hoj7TdDY33
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1706605046.000000
+Z4 !s108 1706616577.000000
 !s107 C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/CliqueCounter.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch|C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/CliqueCounter.v|
 !i113 1

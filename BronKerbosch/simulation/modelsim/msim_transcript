@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:14 on Jan 30,2024
+# Start time: 17:39:25 on Jan 30,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 14:27:16 on Jan 30,2024, Elapsed time: 0:00:02
+# End time: 17:39:27 on Jan 30,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:16 on Jan 30,2024
+# Start time: 17:39:27 on Jan 30,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 14:27:16 on Jan 30,2024, Elapsed time: 0:00:00
+# End time: 17:39:27 on Jan 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:17 on Jan 30,2024
+# Start time: 17:39:28 on Jan 30,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 14:27:17 on Jan 30,2024, Elapsed time: 0:00:00
+# End time: 17:39:28 on Jan 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:17 on Jan 30,2024
+# Start time: 17:39:28 on Jan 30,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 14:27:19 on Jan 30,2024, Elapsed time: 0:00:02
+# End time: 17:39:30 on Jan 30,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:20 on Jan 30,2024
+# Start time: 17:39:31 on Jan 30,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 14:27:20 on Jan 30,2024, Elapsed time: 0:00:00
+# End time: 17:39:32 on Jan 30,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/fiftyfivenm_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work fiftyfivenm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/fiftyfivenm_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:21 on Jan 30,2024
+# Start time: 17:39:32 on Jan 30,2024
 # vlog -reportprogress 300 -vlog01compat -work fiftyfivenm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/fiftyfivenm_atoms.v 
 # -- Compiling UDP FIFTYFIVENM_PRIM_DFFE
 # -- Compiling UDP FIFTYFIVENM_PRIM_DFFEAS
@@ -562,15 +562,15 @@
 # 	fiftyfivenm_jtag
 # 	fiftyfivenm_adcblock
 # 	fiftyfivenm_phase_detector
-# End time: 14:27:22 on Jan 30,2024, Elapsed time: 0:00:01
+# End time: 17:39:33 on Jan 30,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work fiftyfivenm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:22 on Jan 30,2024
+# Start time: 17:39:33 on Jan 30,2024
 # vlog -reportprogress 300 -vlog01compat -work fiftyfivenm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 14:27:26 on Jan 30,2024, Elapsed time: 0:00:04
+# End time: 17:39:36 on Jan 30,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -584,29 +584,29 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch {C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/CliqueCounter.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:26 on Jan 30,2024
+# Start time: 17:39:37 on Jan 30,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch" C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/CliqueCounter.v 
 # -- Compiling module CliqueCounter
 # 
 # Top level modules:
 # 	CliqueCounter
-# End time: 14:27:26 on Jan 30,2024, Elapsed time: 0:00:00
+# End time: 17:39:37 on Jan 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch {C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/CliqueCounterTB.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:27:26 on Jan 30,2024
+# Start time: 17:39:37 on Jan 30,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch" C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/CliqueCounterTB.v 
 # -- Compiling module CliqueCounterTB
 # 
 # Top level modules:
 # 	CliqueCounterTB
-# End time: 14:27:26 on Jan 30,2024, Elapsed time: 0:00:00
+# End time: 17:39:37 on Jan 30,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  CliqueCounterTB
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" CliqueCounterTB 
-# Start time: 14:27:26 on Jan 30,2024
+# Start time: 17:39:38 on Jan 30,2024
 # Loading work.CliqueCounterTB
 # Loading work.CliqueCounter
 # 
@@ -626,5 +626,3 @@
 #    Time: 1 ns  Iteration: 0  Instance: /CliqueCounterTB
 # 1
 # Break in Module CliqueCounterTB at C:/Users/hiaru/Documents/GitHub/cliqueFinderVerilog/BronKerbosch/CliqueCounterTB.v line 40
-# End time: 14:27:54 on Jan 30,2024, Elapsed time: 0:00:28
-# Errors: 0, Warnings: 0

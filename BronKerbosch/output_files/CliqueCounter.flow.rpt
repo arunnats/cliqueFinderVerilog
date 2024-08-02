@@ -1,5 +1,5 @@
 Flow report for CliqueCounter
-Tue Jan 30 14:26:20 2024
+Tue Jan 30 17:39:08 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Successful - Tue Jan 30 14:26:20 2024          ;
+; Flow Status                        ; Successful - Tue Jan 30 17:39:08 2024          ;
 ; Quartus Prime Version              ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                      ; CliqueCounter                                  ;
 ; Top-level Entity Name              ; CliqueCounter                                  ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/30/2024 14:26:06 ;
+; Start date & time ; 01/30/2024 17:38:57 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CliqueCounter       ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 1096159225709.170660496513284          ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 1096159225709.170661653712092          ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; CliqueCounterTB                   ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -108,8 +108,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4791 MB             ; 00:00:16                           ;
-; Total                ; 00:00:15     ; --                      ; --                  ; 00:00:16                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4782 MB             ; 00:00:11                           ;
+; Total                ; 00:00:12     ; --                      ; --                  ; 00:00:11                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
